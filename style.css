@@ -1,0 +1,95 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.left-container {
+	position: fixed;
+	width: 400px;
+	height: 100vh;
+	background-color: #DA70D6;
+}
+
+.right-container {
+	background-color: blueviolet;
+	background-image: url(iya.jpeg);
+}
+
+.photo-contact {
+	position: absolute;
+	top: 100px;
+	text-align: center;
+}
+
+.photo {
+	width: 35%;
+	border-radius: 45%;
+}
+
+.contact-btn {
+	width: 50%;
+	background-color: brown;
+	border-radius: 14px;
+	margin-bottom: 11px;
+	font-size: 1.1rem;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.contact-btn:hover {
+	background-color: violet;
+	color: black;
+	transition: 1S;
+}
+
+.right-container {
+	position: absolute;
+	left: 400px;
+
+
+}
+
+.title {
+	font-style: italic;
+	font-size: 1.3rem;
+}
+
+.top-bar {
+	padding-top: 50px;
+	padding-left: 100px;
+}
+
+.list-menu {
+	float: right;
+	padding-right: 50px;
+}
+.menu {
+	font-size: 1.1rem;
+	padding: 0 15px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#profile {
+	padding-top: 100px;
+	padding-left: 100px;
+}
+
+#about {
+	padding-top: 100px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+#contact {
+	padding-top: 100px;
+	padding-left: 100px;
+}
+
+#footer {
+	padding-top: 250px;
+	text-align: center;
+}
